@@ -6,9 +6,16 @@
 
 The code here implements the Dual LSTM Encoder model from [The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems](http://arxiv.org/abs/1506.08909).
 
+#### Additions and performed work
+
+1. The original code (https://github.com/dennybritz/chatbot-retrieval) was created with TensorFlow < 1.0
+2. Some of the functions were changed to work properly on later versions (TensorFlow < 1.4.0) by https://github.com/transposed/chatbot-retrieval
+3. After changing some function parameter orders, I have managed to run the codes on TensorFlow 1.4.0
+
+
 #### Setup
 
-This code uses Python 3 and Tensorflow >= 0.9. Clone the repository and install all required packages:
+This code uses Python 3 and Tensorflow >= 1.4.0. Clone the repository and install all required packages:
 
 ```
 pip install -U pip
